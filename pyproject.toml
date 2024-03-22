@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "testapis"
+version = "0.1.0"
+description = ""
+authors = ["Muhammad Hilal Soorty <hilal.soorty111@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.110.0"
+uvicorn = {extras = ["standard"], version = "^0.28.0"}
+sqlmodel = "^0.0.16"
+psycopg = "^3.1.18"
+psycopg2 = "^2.9.9"
+psycopg-binary = "^3.1.18"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
